@@ -1,0 +1,20 @@
+{
+  "name": "cssclean",
+  "version": "1.0.0",
+  "description": "css_clean",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.10.0",
+    "connect-busboy": "^0.0.1",
+    "css": "^2.1.0",
+    "express": "^4.9.4",
+    "jade": "^1.7.0",
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bhavya",
+  "license": "ISC"
+}
