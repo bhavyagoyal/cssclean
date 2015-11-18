@@ -77,7 +77,7 @@ else {
     return res.end('<!doctype html><html><head><title>405</title></head><body>405: Method Not Supported</body></html>');
   }
 
-}).listen(8080,'10.0.15.112');
+}).listen(8080,'localhost');
 console.log('Server running');
 
 //console.log(makerandomid(8));

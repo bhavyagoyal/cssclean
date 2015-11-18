@@ -8,6 +8,7 @@ var redis = require('redis');
 
 var redisClient = redis.createClient();
 
+var argument = process.argv.slice(2);
 //function redisSetHandler(error, result){
 //    if (error) console.log('Error redis: ' + error);
 //    //else console.log('Saved');
@@ -29,7 +30,7 @@ function redisGetallHandler(err, obj) {
 };
 
 console.log("got here");
-var ab = redisClient.hgetall("map2",redisGetallHandler);
+var ab = redisClient.hgetall(argument[0]+"_used",redisGetallHandler);
 
 
 

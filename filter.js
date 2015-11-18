@@ -1,6 +1,6 @@
 console.log("in the file");
 
-var Hostname = "http://10.0.15.112:8080";
+var Hostname = "http://localhost:8080";
 var text ="list";
 var text2="";
 var xmlhttp=new XMLHttpRequest();
